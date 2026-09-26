@@ -1,0 +1,52 @@
+# Supabase local development
+
+.supabase/
+
+# Local environment / secrets
+
+.env
+.env.*
+!.env.example
+
+# Supabase local environment
+
+supabase/.env
+supabase/.env.*
+!supabase/.env.example
+
+# Local database / generated files
+
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+
+*.log
+
+# Node.js (if used by the project)
+
+node_modules/
+
+# Build / coverage
+
+dist/
+build/
+coverage/
+
+# Temporary files
+
+*.tmp
+*.temp
